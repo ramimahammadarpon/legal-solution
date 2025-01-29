@@ -1,95 +1,160 @@
-<!DOCTYPE html >
+<!DOCTYPE html>
 <html lang="en" data-theme="light">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- google font link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"><!--Google font ends -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Google font ends -->
 
     <!-- this is DaisiUi Link -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script><!--DaisyUi link ends here -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--DaisyUi link ends here -->
 
     <!-- tailwind script for style -->
     <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-                brown: '#B68C5A',
-                bodyColor: '#F3F3F3',
-                dark2: '#414040',
-                dark3: '#707070',
-              },
-              fontFamily: {
-                ebGeramond: ["EB Garamond", 'serif'],
-                poppins: ["Poppins", 'serif']
-              }
-            }
-          }
-        }
-      </script> <!--Tailwind style script ends here-->
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              brown: "#B68C5A",
+              bodyColor: "#F3F3F3",
+              dark2: "#414040",
+              dark3: "#707070",
+              dark6: "#E7E7E7",
+            },
+            fontFamily: {
+              ebGeramond: ["EB Garamond", "serif"],
+              poppins: ["Poppins", "serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <!--Tailwind style script ends here-->
 
-      <!-- font awesome kit -->
-      <script src="https://kit.fontawesome.com/cfbf8481bd.js" crossorigin="anonymous"></script> <!--Fontawesome kit end-->
+    <!-- font awesome kit -->
+    <script
+      src="https://kit.fontawesome.com/cfbf8481bd.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Fontawesome kit end-->
     <title>Legal Solutions</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Header Section -->
-    <header>
-        <!-- Navigation Bar -->
-         <nav class="container mx-auto mt-10">
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M4 6h16M4 12h8m-8 6h16" />
-                      </svg>
-                    </div>
-                    <ul
-                      tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                      <li class="text-dark3"><a>Home</a></li>
-                      <li class="text-dark3"><a>Services</a></li>
-                    </ul>
-                  </div>
-                  <!--This is logo -->
-                  <img src="images/logo2.png" alt="">
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
-                    <li class="text-dark3"><a>Home</a></li>
-                    <li class="text-dark3 flex items-center justify-center flex-row"><a>Services<i class="fa-solid fa-chevron-right pt-1"></i></a></li>
-                    <li class="text-dark3"><a>Cases<i class="fa-solid fa-chevron-right pt-1"></i></a></li>
-                    <li class="text-dark3"><a>Blog<i class="fa-solid fa-chevron-right pt-1"></i></a></li>
-                    <li class="text-dark3"><a>Contact Us<i class="fa-solid fa-chevron-right pt-1"></i></a></li>
-                  </ul>
-                </div>
-                <div class="navbar-end">
-                  <a class="btn bg-brown text-white">Free Consultation</a>
-                </div>
+    <header class="container mx-auto">
+      <!-- Navigation Bar -->
+      <nav class="mt-10">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
               </div>
-         </nav>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
+                <li class="text-dark3"><a>Home</a></li>
+                <li class="text-dark3"><a>Services</a></li>
+              </ul>
+            </div>
+            <!--This is logo -->
+            <img src="images/logo2.png" alt="" />
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li class="text-dark3"><a>Home</a></li>
+              <li class="text-dark3 flex items-center justify-center flex-row">
+                <a>Services<i class="fa-solid fa-chevron-right pt-1"></i></a>
+              </li>
+              <li class="text-dark3">
+                <a>Cases<i class="fa-solid fa-chevron-right pt-1"></i></a>
+              </li>
+              <li class="text-dark3">
+                <a>Blog<i class="fa-solid fa-chevron-right pt-1"></i></a>
+              </li>
+              <li class="text-dark3">
+                <a>Contact Us<i class="fa-solid fa-chevron-right pt-1"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a class="btn bg-brown text-white">Free Consultation</a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <div
+        class="hero py-24 my-10 rounded-xl space-y-7"
+        style="
+          background-image: linear-gradient(
+              to top,
+              rgba(17, 17, 17, 1),
+              rgba(17, 17, 17, 0)
+            ),
+            url(images/banner.png);
+          background-size: cover;
+          background-position: center;
+        "
+      >
+        <div class="hero-content text-neutral-content text-center">
+          <div class="w-4/6 space-y-7">
+            <h1 class="mb-5 text-7xl font-ebGeramond text-white font-bold">
+              We Provide Effective Legal Solutions
+            </h1>
+            <p class="mb-5 font-poppins text-dark6">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <!-- intput field and button -->
+            <div class="flex gap-3 justify-center items-center">
+              <input
+                type="text"
+                placeholder="Search Your Services"
+                class="input input-bordered text-dark2 w-4/6"
+              />
+              <button class="btn bg-brown border-none text-white text-lg px-8">
+                Search
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
     <!-- Main Section -->
     <main></main>
 
     <!-- footer Section -->
-     <footer></footer>
-</body>
+    <footer></footer>
+  </body>
 </html>
