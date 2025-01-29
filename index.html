@@ -20,7 +20,10 @@
             extend: {
               colors: {
                 clifford: '#da373d',
-                brown: '#B68C5A'
+                brown: '#B68C5A',
+                bodyColor: '#F3F3F3',
+                dark2: '#414040',
+                dark3: '#707070',
               },
               fontFamily: {
                 ebGeramond: ["EB Garamond", 'serif'],
@@ -30,15 +33,62 @@
           }
         }
       </script> <!--Tailwind style script ends here-->
+
+      <!-- font awesome kit -->
+      <script src="https://kit.fontawesome.com/cfbf8481bd.js" crossorigin="anonymous"></script> <!--Fontawesome kit end-->
     <title>Legal Solutions</title>
 </head>
 <body>
     <!-- Header Section -->
-    <header></header>
+    <header>
+        <!-- Navigation Bar -->
+         <nav class="container mx-auto mt-10">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li class="text-dark3"><a>Home</a></li>
+                      <li class="text-dark3"><a>Services</a></li>
+                    </ul>
+                  </div>
+                  <!--This is logo -->
+                  <img src="images/logo2.png" alt="">
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li class="text-dark3"><a>Home</a></li>
+                    <li class="text-dark3 flex items-center justify-center flex-row"><a>Services<i class="fa-solid fa-chevron-right pt-1"></i></a></li>
+                    <li class="text-dark3"><a>Cases<i class="fa-solid fa-chevron-right pt-1"></i></a></li>
+                    <li class="text-dark3"><a>Blog<i class="fa-solid fa-chevron-right pt-1"></i></a></li>
+                    <li class="text-dark3"><a>Contact Us<i class="fa-solid fa-chevron-right pt-1"></i></a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a class="btn bg-brown text-white">Free Consultation</a>
+                </div>
+              </div>
+         </nav>
+    </header>
 
     <!-- Main Section -->
     <main></main>
-    
+
     <!-- footer Section -->
      <footer></footer>
 </body>
